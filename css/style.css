@@ -1,3 +1,199 @@
+html, body { width: 100%; background-color: #252625}
+
+body  {
+  height: 1200px;
+}
 
 
-/*# sourceMappingURL=style.css.map */
+@font-face {
+    font-family: moon;
+    src: url(./fonts/moon_flower/MF.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: chunkie;
+    src: url(./fonts/Exo2-Bold.otf) format('Opentype');
+  }
+
+@font-face {
+    font-family: curly;
+    src: url(./fonts/Quirlycues.ttf) format('truetype');
+  }
+
+#first-section-div {
+  background-color: #252625; 
+}
+
+#name_div {
+  text-align: center;
+  padding: 40px;
+  /*position: relative;*/
+  /*float: center*/
+}
+
+#name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: moon;
+  color: white;
+  font-size: 150px;
+}
+
+#title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: chunkie;
+  font-size: 30px;
+  /*color: #f7484e !important*/
+  color: #f7484e !important
+}
+
+
+#about_div {
+  background-color: #252625; 
+}
+
+#about_right_div {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#inner_about_div {
+  padding: 30px;
+}
+
+#caption1 {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#how_div {
+background-color: #f7484e;
+}
+
+#caption2 {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+.projects_div {
+  background-color: #252625;
+}
+
+.projects_left_div {
+  margin-top: 20px;
+  margin-left: 35%;
+  /*position: absolute;*/
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  /*height: 100%;*/
+  /*float: left;*/
+  /*background-color: #f7484e*/
+}
+
+#projects_caption{
+  margin: 0px 0px;
+  color: #f7484e;
+  font-family: chunkie;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SLIDERS*/
+
+#gallery{
+  position:relative;
+  margin: 0 auto;
+  overflow:hidden;
+  width:1200px;
+  height:5000px;
+}
+
+#mac {
+  width: 700px; 
+  height: 500px; 
+  z-index: 10; 
+  position: absolute;
+  margin: 0 auto;
+}
+
+#slider{
+  padding-left: 26px;
+  position:absolute;
+  left:0;
+  width: 650px;
+  height:360px;  
+  text-align:left; /* to reset text inside slides */
+}
+
+#slider > div {
+  position:relative;
+  float:left;
+  padding-right: 26px;
+  margin-right: 37px;
+  margin-top: 24px;
+  width:1140px;
+  height:350px;
+}
+
+#web_0 {
+  width: 650px;
+}
+
+#prev {
+  position:relative;
+  top:365px;
+  left: 250px;
+  cursor:pointer;
+  padding:5px;
+  z-index: 12;
+}
+
+#next{
+  position:relative;
+  top:370px;
+  left: 350px;
+  cursor:pointer;
+  padding:5px;
+  /*margin-left: 400px;*/
+  z-index: 12;
+}
+
+.fa-twitter, .fa-linkedin-square, .fa-github-alt, .fa-paper-plane-o {
+  font-size: 40px;
+  color: #f7484e;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.fa-twitter {
+  margin-left: 0px !important;
+}
