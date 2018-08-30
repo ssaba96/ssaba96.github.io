@@ -21,7 +21,7 @@ body  {
   }
 
 #first-section-div {
-  background-color: #252625; 
+  background-color: #252625;
 }
 
 #name_div {
@@ -50,7 +50,7 @@ body  {
 
 
 #about_div {
-  background-color: #252625; 
+  background-color: #252625;
 }
 
 #about_right_div {
@@ -108,7 +108,7 @@ background-color: #f7484e;
   font-family: chunkie;
   font-size: 40px;
   text-align: center;
-  
+
 }
 
 
@@ -138,9 +138,9 @@ background-color: #f7484e;
 }
 
 #mac {
-  width: 700px; 
-  height: 500px; 
-  z-index: 10; 
+  width: 700px;
+  height: 500px;
+  z-index: 10;
   position: absolute;
   margin: 0 auto;
 }
@@ -150,7 +150,7 @@ background-color: #f7484e;
   position:absolute;
   left:0;
   width: 650px;
-  height:360px;  
+  height:360px;
   text-align:left; /* to reset text inside slides */
 }
 
@@ -196,4 +196,20 @@ background-color: #f7484e;
 
 .fa-twitter {
   margin-left: 0px !important;
+}
+
+#icons2 {
+  background-color: white;
+}
+
+.icon-image{
+  height: 90px;
+  width: 90px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
