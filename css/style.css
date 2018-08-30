@@ -213,3 +213,7 @@ background-color: #f7484e;
     margin-right: auto;
     width: 50%;
 }
+
+.hidden{
+  overflow: hidden;
+}
