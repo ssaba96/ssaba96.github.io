@@ -214,6 +214,15 @@ background-color: #f7484e;
     width: 50%;
 }
 
-.hidden{
+#div1{
+  overflow: hidden;
+}
+#div2{
+  overflow: hidden;
+}
+#div3{
+  overflow: hidden;
+}
+#div4{
   overflow: hidden;
 }
