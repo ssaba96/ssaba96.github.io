@@ -1,0 +1,1025 @@
+body {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	margin: 0px;
+
+}
+
+// MEDIA SCREENS
+@lg: ~"only screen and (min-width: 1200px)";
+@md: ~"only screen and (max-width: 1199px)";
+@sml: ~"only screen and (max-width: 991px)";
+@xs: ~"only screen and (max-width: 767px)";
+
+// COLORS
+@yellow: #FDE64F;
+@lightgrey: #b4bcc2;
+@darkest_purple: #171219;
+@darker_purple: #332838;
+@dark_light_purple: #63374B;
+
+// FONTS
+@Helvetica: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+@roboto: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+@droid: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+@gloria: 'Gloria Hallelujah', cursive;
+
+// CUSTOMS
+.NoPadding {
+
+	padding: 0px;
+
+}
+
+.font_size {
+
+	@media @lg {
+
+		font-size: 19px;
+
+	}
+
+	@media @md {
+
+		font-size: 19px;
+
+	}
+
+	@media @sml {
+
+		font-size: 16px;
+
+	}
+
+	@media @xs {
+
+		font-size: 16px;
+
+	}
+
+}
+
+// ***************************************************************************************************
+// ****************************************** 	PAGES   **********************************************
+// ***************************************************************************************************
+
+// CONTACT
+.Contact--Block {
+
+	background-size: cover;
+
+	@media @lg {
+
+		background-image: url('../img/purple-stars.jpg');
+		padding: 150px 0 100px 0;
+
+	}
+
+	@media @md {
+
+		background-image: url('../img/purple-stars.jpg');
+		padding: 75px 0 75px 0;
+
+	}
+
+	@media @sml {
+
+		background-image: url('../img/purple-stars.jpg');
+		padding: 50px 0;
+
+	}
+
+	@media @xs {
+
+		background-image: none;
+		background-color: @darkest_purple;
+		padding: 0;
+
+	}
+
+	.container {
+
+
+		.Form-Box {
+
+			text-align: center;
+			background-color: #171219;
+			border: 2px solid white;
+
+			margin: 0 auto;
+			color: white;
+
+			@media @lg {
+
+				padding: 25px 0;
+				width: 500px;
+
+			}
+
+			@media @md {
+
+				padding: 25px 0;
+				width: 400px;
+
+			}
+
+			@media @sml {
+
+				padding: 25px 0;
+				width: 350px;
+
+			}
+
+			@media @xs {
+
+				width: 100%;
+
+			}
+
+			.Contact_Img_Box {
+
+				margin: 0 auto;
+
+
+				@media @lg {
+
+					width: 200px;
+
+				}
+
+				@media @md {
+
+					width: 180px;
+
+				}
+
+				@media @sml {
+
+				}
+
+				@media @xs {
+
+
+
+				}
+
+				img {
+					width: 100%;
+					border: 2px solid white;
+					border-radius: 70px;
+					padding: 5px;
+				}
+
+			}
+
+			.Align {
+
+				display: block;
+
+				@media @lg {
+
+					padding: 20px 0;
+
+				}
+
+				@media @md {
+
+					padding: 20px 0 10px 0;
+
+				}
+
+				@media @sml {
+
+
+
+				}
+
+				@media @xs {
+
+
+
+				}
+
+				a:hover {
+
+					text-decoration: none;
+
+				}
+
+				a {
+
+					display: inline-block;
+					color: unset;
+
+					@media @lg {
+
+						padding: 0 20px;
+
+					}
+
+					@media @md {
+
+						padding: 0 20px;
+
+					}
+
+					@media @sml {
+
+
+
+					}
+
+					@media @xs {
+
+
+
+					}
+
+					h2, h4, h5 {
+
+						font-family: @gloria;
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+// SKILLS
+.Skills--Block {
+
+	background-color: @dark_light_purple;
+	background-color: @darkest_purple;
+	// background-color: grey;
+
+	@media @lg {
+
+		padding: 50px;
+
+	}
+
+	@media @md {
+
+		padding: 50px 25px;
+
+	}
+
+	@media @sml {
+
+		padding: 50px 20px;
+
+	}
+
+	@media @xs {
+
+		padding: 10px;
+
+	}
+
+	.Skills_Inner_Box {
+
+		background-color: white !important;
+		overflow: hidden;
+
+		@media @lg {
+
+			padding: 50px 0;
+
+		}
+
+		@media @md {
+
+			padding: 50px 0;
+
+		}
+
+		@media @sml {
+
+			padding: 25px 25px;
+
+		}
+
+		@media @xs {
+
+			padding-bottom: 10px;
+
+		}
+
+		.Skill-Heading {
+
+			text-align: center;
+			color: @dark_light_purple;
+			padding: 0;
+
+			@media @lg {
+
+				padding-bottom: 50px;
+
+			}
+
+			@media @md {
+
+				padding-bottom: 25px;
+
+			}
+
+			@media @sml {
+
+				padding-bottom: 20px;
+
+			}
+
+			@media @xs {
+
+
+
+			}
+
+			h1 {
+
+				font-family: @Helvetica;
+				font-weight: 800;
+
+				@media @lg {
+
+					padding-bottom: 15px;
+
+				}
+
+				@media @md {
+
+					padding-bottom: 10px;
+
+				}
+
+				@media @sml {
+
+					font-size: 28px;
+
+				}
+
+				@media @xs {
+
+					font-size: 22px;
+
+				}
+
+			}
+
+
+			h5 {
+
+				color: @lightgrey;
+
+				@media @lg {
+
+
+
+				}
+
+				@media @md {
+
+
+
+				}
+
+				@media @sml {
+
+					width: 450px;
+					margin: 0 auto;
+
+				}
+
+				@media @xs {
+
+					width: 100%;
+
+				}
+
+			}
+
+		}
+
+		.Skills_Thumbnail {
+
+			font-family: @roboto !important;
+
+			@media @sml {
+
+				padding: 0;
+
+			}
+
+			.Width {
+
+				text-align: center;
+				margin: 0 auto;
+
+				@media @lg {
+
+					width: 350px;
+
+				}
+
+				@media @md {
+
+					width: 280px;
+
+				}
+
+				@media @sml {
+
+					width: 210px;
+
+				}
+
+				@media @xs {
+
+					width: 100%;
+
+				}
+        
+				h3.Skill_Title {
+
+					font-family: @gloria;
+					border: 1px dashed @dark_light_purple;
+					text-align: center;
+
+					@media @lg {
+
+						margin: 25px auto 10px auto;
+						padding: 25px 0;
+
+					}
+
+					@media @md {
+
+						margin: 10px auto;
+						padding: 20px 0;
+
+					}
+
+					@media @sml {
+
+						font-size: 20px;
+
+					}
+
+					@media @xs {
+
+
+
+					}
+
+
+				}
+
+				.Skill_Item {
+
+					background-color: @dark_light_purple;
+
+					@media @lg {
+
+						margin-bottom: 10px;
+
+					}
+
+					@media @md {
+
+						margin-bottom: 10px;
+
+					}
+
+					@media @sml {
+
+						margin-bottom: 5px;
+
+					}
+
+					@media @xs {
+
+
+
+					}
+
+					.Text {
+
+						color: white;
+						text-align: left;
+
+						@media @lg {
+
+							padding: 15px;
+
+						}
+
+						@media @md {
+
+							padding: 15px;
+
+						}
+
+						@media @sml {
+
+
+						}
+
+						@media @xs {
+
+
+
+						}
+
+						h5 {
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+// ABOUT
+.About--Block {
+
+	background-color: white;
+
+	@media @lg {
+
+		padding: 50px;
+
+	}
+
+	@media @md {
+
+		padding: 50px 25px;
+
+	}
+
+	@media @sml {
+
+		padding: 25px 15px;
+		padding-bottom: 50px;
+
+	}
+
+	@media @xs {
+
+		padding-bottom: 25px;
+
+	}
+
+	.About-Inner {
+
+		color: black;
+		background-color: white;
+		overflow: hidden;
+
+		@media @lg {
+
+			padding: 50px;
+
+		}
+
+		@media @md {
+
+			padding: 0 50px;
+
+		}
+
+		@media @sml {
+
+			padding: 0 25px;
+
+		}
+
+		@media @xs {
+
+			padding: 0;
+
+		}
+
+		.About-Heading {
+
+
+			text-align: center;
+			padding: 0;
+
+			h1 {
+
+				font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				font-weight: 800;
+				color: @dark_light_purple;
+
+				@media @lg {
+
+					padding-bottom: 50px;
+
+				}
+
+				@media @md {
+
+					padding-bottom: 30px;
+
+				}
+
+				@media @sml {
+
+					font-size: 26px;
+
+				}
+
+				@media @xs {
+
+					font-size: 22px;
+					padding-top: 20px;
+					padding-bottom: 20px;background-color: @darkest_purple;
+					color: white;
+					border-bottom: 1px dashed white;
+
+				}
+
+			}
+
+		}
+
+		.About-Content {
+
+			padding: 0;
+
+			.Left-Bio {
+
+				padding: 0;
+
+				@media @lg {
+
+					width: 300px;
+
+				}
+
+				@media @md {
+
+					width: 250px;
+
+				}
+
+				@media @sml {
+
+					width: 220px;
+
+				}
+
+				@media @xs {
+
+					width: 100%;
+
+				}
+
+				img {
+
+					border: 10px solid @darkest_purple;
+
+					@media @lg {
+
+						width: 230px;
+
+					}
+
+					@media @md {
+
+						width: 200px;
+
+					}
+
+					@media @sml {
+
+						width: 180px;
+
+					}
+
+					@media @xs {
+
+						width: 100%;
+						margin-bottom: 15px;
+
+					}
+
+				}
+
+			}
+
+			.Right-Bio {
+
+				padding: 0;
+
+				@media @lg {
+
+					width: 608px;
+
+				}
+
+				@media @md {
+
+					width: 550px;
+
+				}
+
+				@media @sml {
+
+					width: 450px;
+
+				}
+
+				@media @xs {
+
+					width: 100%;
+
+				}
+
+				h1 {
+
+					@media @lg {
+
+						font-size: 20px;
+						line-height: 30px;
+
+					}
+
+					@media @md {
+
+						font-size: 16px;
+						line-height: 24px;
+
+					}
+
+					@media @sml {
+
+
+
+					}
+
+					@media @xs {
+
+
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+// SECTION :: PORTFOLIOS
+.Portfolios_OUTER {
+
+	overflow: hidden;
+	background-color: @darkest_purple;
+
+	@media @lg {
+
+		padding: 120px 50px;
+
+	}
+
+	@media @md {
+
+		padding: 50px;
+
+	}
+
+	@media @sml {
+
+		padding: 25px 15px;
+
+	}
+
+	@media @xs {
+
+
+
+	}
+
+	.Portfolio-Heading {
+
+		padding: 0;
+		text-align: center;
+
+		@media @lg {
+
+			padding-bottom: 50px;
+
+		}
+
+		@media @md {
+
+			padding-bottom: 35px;
+
+		}
+
+
+		h1 {
+
+			font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-weight: 800;
+			color: white;
+
+			@media @sml {
+
+				font-size: 26px;
+
+			}
+
+			@media @xs {
+
+
+
+			}
+
+		}
+
+	}
+
+	.Portfolio--Block:nth-of-type(5) {
+
+		padding-bottom: 0 !important;
+
+	}
+
+	.Portfolio--Block {
+
+		color: white;
+		padding-left: 0;
+		padding-right: 0;
+
+		@media @lg {
+
+			padding-bottom: 50px;
+
+		}
+
+		@media @md {
+
+			padding-bottom: 20px;
+
+		}
+
+		@media @sml {
+
+
+
+		}
+
+		@media @xs {
+
+
+
+		}
+
+		.Portfolio_Thumbnail {
+
+			@media @lg {
+
+				padding: 10px;
+				border: 1px dashed white;
+
+			}
+
+			@media @md {
+
+				padding: 10px;
+				// border: 1px dashed white;
+
+			}
+
+			@media @sml {
+
+
+
+			}
+
+			@media @xs {
+
+
+
+			}
+
+			.Project_picture-container {
+
+				width: 100%;
+
+				@media @lg {
+
+					height: 200px;
+
+				}
+
+				@media @md {
+
+					height: 150px;
+
+				}
+
+				@media @sml {
+
+					height: 130px;
+
+				}
+
+				@media @xs {
+
+					height: 200px;
+
+				}
+
+				background-size: cover;
+
+			}
+
+			.Project_detail {
+
+				background-color: @darkest_purple;
+				color: white;
+
+
+				@media @lg {
+
+					padding: 15px;
+					padding-left: 0;
+
+				}
+
+				@media @md {
+
+					padding: 15px;
+					padding-left: 0;
+
+				}
+
+				@media @sml {
+
+
+
+				}
+
+				@media @xs {
+
+
+
+				}
+
+				h3 {
+
+					.font_size;
+
+					font-family: @Helvetica;
+					font-weight: 700;
+					margin-bottom: 5px;
+
+				}
+
+				p {
+
+					@media @lg {
+
+						margin-top: 30px;
+
+					}
+
+					i {
+
+						font-family: @droid;
+						color: #777;
+						color: white;
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
