@@ -579,8 +579,7 @@ h6 {
   background-size: cover;
 }
 @media only screen and (min-width: 1200px) {
-  .Portfolios_OUTER .Portfolio--Block .Portfolio_Thumbnail .Project_picture-container {
-  }
+
 }
 @media only screen and (max-width: 1199px) {
   .Portfolios_OUTER .Portfolio--Block .Portfolio_Thumbnail .Project_picture-container {
