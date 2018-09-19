@@ -34,7 +34,7 @@ h6 {
 }
 @media only screen and (min-width: 1200px) {
   .Contact--Block {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcAixyoTQMtBbWNOqRieGkgacIqpw4HTHvLte_GTs-pfJ8_n_0');
+    background-image: url('https://media.giphy.com/media/OK5LK5zLFfdm/giphy.gif');
     padding: 150px 0 100px 0;
   }
 }
@@ -139,7 +139,7 @@ h6 {
 .Contact--Block .container .Form-Box .Align a h2,
 .Contact--Block .container .Form-Box .Align a h4,
 .Contact--Block .container .Form-Box .Align a h5 {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Montserrat';
 }
 .Skills--Block {
   background-color: #63374B;
@@ -210,7 +210,7 @@ h6 {
   }
 }
 .Skills--Block .Skills_Inner_Box .Skill-Heading h1 {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat';
   font-weight: 800;
 }
 @media only screen and (min-width: 1200px) {
@@ -280,7 +280,7 @@ h6 {
   }
 }
 .Skills--Block .Skills_Inner_Box .Skills_Thumbnail .Width h3.Skill_Title {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Montserrat';
   border: 1px dashed #63374B;
   text-align: center;
   color: #2874A6;
@@ -690,4 +690,14 @@ h6 {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+}
+
+.Align {
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  animation-name: Align;
 }
